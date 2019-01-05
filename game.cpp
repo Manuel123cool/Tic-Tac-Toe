@@ -181,7 +181,7 @@ void Game::winAndLoss(int row)
 
         x = m_gameGrid.getMargin();
         y = m_gameGrid.getMargin() + cathetus;
-        if (row == 8)
+        if (row == 6)
         {
             shape.setPosition(x,y);
             rotation = -45;
