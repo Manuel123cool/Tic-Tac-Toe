@@ -254,6 +254,6 @@ void Game::update()
     else if (m_gameState.state == DROW)
     {
         if (m_countFrame > 60)
-            drawState("Drow", sf::Vector2f(150, 250));
+            drawState("Drow", sf::Vector2f(197, 250));
     }
 }
