@@ -22,7 +22,7 @@ private:
 public:
     GameGrid(sf::RenderWindow &window);
     void draw() const;
-    void checkPreesed(sf::Event &event, Game &game);
+    void checkPressed(sf::Event &event, Game &game);
     Rect& operator[] (const int index);
     float getRectSize() const;
     float getMargin() const;
