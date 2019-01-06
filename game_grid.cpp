@@ -14,7 +14,7 @@ GameGrid::GameGrid(sf::RenderWindow &window) : m_window(window)
     }
 }
 
-void GameGrid::checkPreesed(sf::Event &event, Game &game)
+void GameGrid::checkPressed(sf::Event &event, Game &game)
 {
     if (event.type == sf::Event::MouseButtonPressed && !m_notClickable)
     {
