@@ -7,7 +7,7 @@
 class Game
 {
 public:
-    enum RowStatus {POSSIBLE_PlAYER_WIN, POSSIBLE_COMPUTER_WIN, PLAYER_WIN, COMPUTER_WIN, DROW, IN_GAME, NO_STATE};
+    enum RowStatus {POSSIBLE_PlAYER_WIN, POSSIBLE_COMPUTER_WIN, PLAYER_WIN, COMPUTER_WIN, DRAW, IN_GAME, NO_STATE};
 private:
     struct RowStatusPlusWinRect
     {
