@@ -27,7 +27,7 @@ int main()
             if (event.type == sf::Event::KeyPressed)
                if (event.key.code == sf::Keyboard::Escape)
                     window.close();
-            gameGrid.checkPreesed(event, game);
+            gameGrid.checkPressed(event, game);
         }
         window.clear(sf::Color(207, 207, 207));
         gameGrid.draw();
