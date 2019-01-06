@@ -124,7 +124,7 @@ void Game::playRandom()
         if (count > 200)
         {
             //std::cout << "Its a draw\n";
-            setGameState(DROW);
+            setGameState(DRAW);
             return;
         }
     } while (!(m_gameGrid[random].setter == GameGrid::NOT_PLAYED));
@@ -251,9 +251,9 @@ void Game::update()
         if (m_countFrame > 60)
             drawState("Player Won", sf::Vector2f(70, 250));
     }
-    else if (m_gameState.state == DROW)
+    else if (m_gameState.state == DRAW)
     {
         if (m_countFrame > 60)
-            drawState("Drow", sf::Vector2f(197, 250));
+            drawState("Draw", sf::Vector2f(197, 250));
     }
 }
