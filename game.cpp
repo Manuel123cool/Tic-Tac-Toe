@@ -1,4 +1,4 @@
-/*  Tetris: a simple tetris game
+/*  Tic-Tac-Toe: a simple Tic-Tac-Toe game
     Copyright (C) 2020  Manuel Maria Kümpel
 
     This program is free software: you can redistribute it and/or modify
